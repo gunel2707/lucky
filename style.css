@@ -1,0 +1,778 @@
+body {
+    overflow-x: hidden;
+}
+
+.btn-group {
+    text-decoration: none;
+    text-align: center;
+    padding: 7px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-signup {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.btn-signup:hover {
+    border: none;
+    background-color: #000;
+    color: white;
+}
+
+.btn-signin {
+    border: 0.2px solid #fff;
+    background-color: transparent;
+    color: white;
+}
+
+
+.btn-signin:hover {
+    background-color: #000;
+    color: white;
+
+}
+
+@media(max-width:767.98px) {
+    .cart_heart {
+        margin-left: 232px;
+        top: 50px;
+    }
+
+    .dropdown,
+    .dropbtn {
+        width: 100%;
+    }
+}
+
+@media(min-width:767.98px) {
+    .cart_heart {
+        margin-left: -45px;
+    }
+}
+
+
+.cart {
+    margin-left: -26px;
+    margin-top: -32px;
+}
+
+.heart {
+    margin-left: -26px;
+    margin-top: -32px;
+}
+
+
+/*kateqoriya*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dropbtn {
+
+
+    margin-top: 10px;
+    background-color: rgb(2, 73, 66);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 440px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.sidenav {
+    left: 0;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 440px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#header-bottom-dropdown-menu .dropdown-item {
+    padding: 10px 0;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 20px;
+    padding: 10px 0;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+
+}
+
+a:hover {
+    align-items: center;
+}
+
+.dropdown-menu {
+    width: 200%;
+}
+
+@media(max-width:1299.98px) {
+    .dropbtn {
+        width: 225px;
+    }
+
+    .nav ul li a {
+        font-size: 16px;
+    }
+}
+
+.category-dropbtn img {
+    margin: 0 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+/**************NAV*****************/
+
+
+ul li {
+    list-style: none;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+
+/*  ******************* Search***************************/
+input,
+button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: transparent;
+}
+
+.search-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    border-radius: 5px;
+    max-width: 600px;
+    border: 2px solid #fff;
+}
+
+.search-form input {
+    padding-left: 10px;
+}
+
+.search-form input::placeholder {
+    color: #fff
+}
+
+/*   ********************Search**************************/
+.sidenav {
+    display: flex;
+    background-color: #f58516;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 350px;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:767.98px) {
+    .logo {
+        margin-left: 130px;
+    }
+
+    .sidenav {
+        display: block;
+    }
+
+    .side_open {
+
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .dropbtn {
+        width: 500px;
+    }
+}
+
+@media(min-width:767.98px) {
+
+    .side_open {
+        display: none;
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+    }
+}
+
+.dropdown-container {
+    display: none;
+    background-color: transparent;
+    padding-left: 8px;
+}
+
+/* CATEGORY-MOBYLE*/
+
+.mobile {
+    width: 100%;
+}
+
+.dropdown-mobile:hover .dropdown-content-mobile {
+    width: 100%;
+    background-color: #3e8e41;
+}
+
+.cate-mobile a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+@media(max-width:767.98px) {
+    .category-mobile {
+        display: block;
+    }
+
+    .category-mobile {
+        width: 100%;
+    }
+
+    .category {
+        display: none;
+    }
+
+    .nav-menyu {
+        display: none;
+    }
+
+}
+
+@media(min-width:767.98px) {
+    .category-mobile {
+        display: none;
+    }
+
+    .category {
+        display: block;
+    }
+
+
+
+
+}
+
+
+/*********************ICON_BAR************************/
+body {
+    margin: 0;
+    height: 2000px;
+}
+
+.icon-bar {
+    position: fixed;
+    bottom: 14px;
+    left: 16px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    color: #fff;
+    font-size: 30px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.email {
+    background: #3B5998;
+    color: #fff;
+}
+
+.whatsapp {
+    margin-top: 20px;
+    background: rgb(28, 202, 28);
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.icon-bar>*:first-child:hover .hide,
+.icon-bar>*:last-child:hover .hide {
+    display: block;
+    color: #000;
+}
+
+
+
+/*************OFIS LEVAZIMATLARI*****************/
+#ofis {
+    padding: 80px 0;
+    background-color: rgb(242, 242, 242);
+    background-image: url(./images/leaf-office-left-1.png), url(./images/leaf-office-right-1.png);
+    background-repeat: no-repeat;
+    background-position: left 90%, right 50%;
+}
+
+
+.border-ofis {
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px solid #fff;
+
+    background: #fff;
+    width: 300px;
+    height: 480px;
+}
+
+.border-ofis img {
+    width: 100%;
+}
+
+.special-badge-wr {
+    width: 100%;
+    padding: 12px 0;
+    padding-left: 8px;
+}
+
+.special-badge {
+    font-size: 14px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background: rgb(26, 122, 121);
+    color: white;
+}
+
+.zoom {
+
+    -ms-transform: scale(0.6);
+    /* IE 9 */
+    -webkit-transform: scale(0.6);
+    /* Safari 3-8 */
+    transform: scale(0.6);
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(0.8);
+    /* IE 9 */
+    -webkit-transform: scale(0.8);
+    /* Safari 3-8 */
+    transform: scale(0.8);
+}
+
+.btn {
+    border: 1px solid rgb(157, 154, 154);
+    background-color: white;
+    color: black;
+    padding: 8px 18px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(18, 107, 125);
+    color: white;
+}
+
+/*********************BOLMELER**************************/
+#bolmeler {
+    padding: 40px 0;
+    background-color: #f58516;
+    background-image: url(./images/leaf-category-left-1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-position: left 90%, right 50%;
+}
+
+.border-bolme {
+    display: flex;
+    height: 354px;
+    flex-direction: column;
+
+    width: 600px;
+    background-color: #000;
+}
+
+@media(max-width:767.98px) {
+    .border-bolme {
+        height: 177px;
+        width: 305px;
+    }
+}
+
+.top-left a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.hover-over {
+    position: relative;
+
+}
+
+.image {
+    opacity: 1;
+    display: block;
+
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hover-over:hover .image {
+
+    opacity: 0.3;
+}
+
+.hover-over:hover .middle {
+    opacity: 1;
+}
+
+.hover-over:hover .top-left {
+    display: none;
+}
+
+.hover-over:hover .middle {
+    display: block;
+}
+
+.text {
+    background-color: transparent;
+}
+
+.text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.zoom-bolme {
+
+    -ms-transform: scale(0.97);
+    /* IE 9 */
+    -webkit-transform: scale(0.97);
+    /* Safari 3-8 */
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+
+.zoom-bolme:hover {
+    -ms-transform: scale(1.0);
+    /* IE 9 */
+    -webkit-transform: scale(1.0);
+    /* Safari 3-8 */
+    transform: scale(1.0);
+}
+
+
+
+
+/**********************QIDA VE ICKILER*********************/
+#qidaveickiler {
+
+    padding: 40px 0;
+    background-color: rgb(242, 242, 242);
+    background-image: url(./images/leaf-office-left-1.png), url(./images/leaf-office-right-1.png);
+    background-repeat: no-repeat;
+    background-position: left 90%, right 50%;
+}
+
+
+
+.border-qida {
+
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #fff;
+
+    background: #fff;
+    width: 280px;
+    height: 400px;
+}
+
+.border-qida img {
+    width: 100%;
+}
+
+.product-info {
+    font-family: Aria, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.zoom-qida {
+    -ms-transform: scale(0.4);
+    /* IE 9 */
+    -webkit-transform: scale(0.4);
+    /* Safari 3-8 */
+    transform: scale(0.4);
+    transition: transform .2s;
+}
+
+.zoom-qida:hover {
+    -ms-transform: scale(0.8);
+    /* IE 9 */
+    -webkit-transform: scale(0.8);
+    /* Safari 3-8 */
+    transform: scale(0.8);
+}
+
+.btn {
+    border: 1px solid rgb(157, 154, 154);
+    background-color: white;
+    color: black;
+    padding: 8px 18px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.sebet:hover {
+    background: rgb(18, 107, 125);
+    color: white;
+}
+
+/**********************SECTION-BOTTOM********************/
+#section-bottom {
+    padding: 40px 0;
+    background-color: rgb(2, 73, 66);
+    background-image: url(./images/leaf-office-right-1.png);
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+
+.top-left {
+
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.hover-over:hover .top-left {
+    display: none;
+}
+
+.top-left a {
+    text-decoration: none;
+    color: #000;
+}
+
+/***********************BRENDLERIMIZ*********************************/
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dots button.owl-dot {
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: relative;
+}
+
+.owl-dots button.owl-dot:hover span {
+    background-color: green;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.owl-dots button.owl-dot.active span {
+    background-color: #f58516;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+/*********************FOOTER************************/
+footer div a {
+    font-family: font-Aria, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+
+}
+
+footer div h5 {
+
+    text-align: center;
+    color: #f58516;
+    text-decoration: underline;
+}
+
+.a-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgb(15, 150, 134);
+    width: 30px;
+    height: 30px;
+}
+
+.a-brand:hover {
+    background: #f58516;
+}
+
+footer div ul li {
+    font-family: font-Aria, Helvetica, sans-serif;
+}
+
+
+
+.footer-copyright {
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.footer-copyright a {
+    color: #f58516;
+    font-size: 20px;
+}
+
+
+/********************SCROLLDOWN**********************/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #f58516;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+#myBtn:hover {
+    background-color: rgb(238, 99, 44);
+}
